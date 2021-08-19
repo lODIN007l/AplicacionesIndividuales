@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../estilosEjercicios.css">
+    <script src="/ejercicios/metodos/alternativos.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/index.html" ">Volver</a>
+                
+            </div>           
+    </nav>
+    <main>
+        <section>
+            <div class=" blog">
+                   <div class="conteniodEjercicio">
+                       <span style="--i:0";></span>
+                       <span style="--i:1";></span>
+                       <span style="--i:2";></span>
+                       <span style="--i:3";></span>
+                      
+                        <div class="tarjetaCentro" id="#Ejercicio1Lineal" style=" width: 950px;
+                        height: 650px;">
+                            <h1>ALQUILER</h1>
+                            <p style="color:rgb(51, 51, 51); text-align: justify; margin: 10px;">
+                                Una compañía dedicada al alquiler de automóviles cobra un monto fijo de $300000 para los primeros 300 km de recorrido.
+                                Para más de 300 km y hasta 1000 km, cobra un monto adicional de $ 15.000 por cada kilómetro en exceso sobre 300. 
+                                Para más de 1000 km cobra un monto adicional de $ 10.000 por cada kilómetro en exceso sobre 1000. 
+                                Los precios ya incluyen el 20% del impuesto general a las ventas, IVA. 
+                                Diseñe un programa que determine el monto a pagar por el alquiler de un vehículo y el monto incluido del impuesto.
+                            </p>
+            
+                            <form id="ej3" name="eje3">
+                                <label for="">Recorrido del vehiculo</label>
+                                <br>
+                                <input type="number" id="recorrido" name="recorrido">
+                                <br>
+                                <button style="background-color: violet; color: whitesmoke; margin-left: 410px;" type="button" onclick="Alquiler()">CALCULAR</button>
+                                <div id="linea"></div>
+                                
+                                <p id="res">PAGO TOTAL</p>
+                                <p id="eje3Res1" style="color: slateblue; font: bold;">----$</p>
+                                <p id="res">PAGO SIN IVA</p>
+                                <p id="eje3Res2" style="color: slateblue; font: bold;">----$</p>
+                                <p id="res">IVA</p>
+                                <p id="eje3Res3" style="color: slateblue; font: bold;">----$</p>
+                            </form>
+                            
+                        </div>
+                        
+                   </div>  
+            </div>
+        </section>   
+    </main>
+    
+</body>
+
+</html>

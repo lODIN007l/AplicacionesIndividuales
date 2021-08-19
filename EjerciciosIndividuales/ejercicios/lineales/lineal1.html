@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../estilosEjercicios.css">
+    <script src="/ejercicios/metodos/lineales.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/index.html" ">Volver</a>
+                
+            </div>           
+    </nav>
+    <main>
+        <section>
+            <div class=" blog">
+                   <div class="conteniodEjercicio">
+                       <span style="--i:0";></span>
+                       <span style="--i:1";></span>
+                       <span style="--i:2";></span>
+                       <span style="--i:3";></span>
+                      
+                        <div class="tarjetaCentro" id="#Ejercicio1Lineal">
+                            <h1>INCIDENCIA DEL SOL</h1>
+                            <p>Conocida la altura(h) de un poste y el largo de la sombra de este proyectada sobre la acera(s),a una hora determinada del día, haga un programa que calcule e imprima (grados, minutos y segundos), el ángulo de incidencia del sol en ese momento. </p>
+                            <form id="ej1" name="eje1">
+                                <label for="h">Altura del poste</label>
+                               
+                                <input style="margin:10px ; margin-left: 33px;" type="number" name="h" id="h">
+                                <br>
+                                <label for="s">Largo de la sombra</label>
+                               
+                                <input style="margin:10px ;" type="number" name="s" id="s">
+                                <br>
+                                <label for="">Hora del dia</label>
+                                
+                                <input style="margin:10px ; margin-left: 68px;" type="number" name="hora" id="hora" min="0" max="23">
+                                <label for="">:</label>
+                                <input style="margin:10px ;" type="numbre" name="min" id="min" min="0" max="59">
+                                <button style="background-color: darkorchid; color: whitesmoke; margin-left: 380px; margin-bottom: 10px;" class="botonejercicio1" type="button" onclick="Incidencia_sol()">Calcular</button>
+                                <div id="linea"></div>
+                                <p id="res">EL ANGULO DE INCIDENCIA DEL SOL ES DE :</p>
+                                <p id="eje1Res">--- º,--- min, ---- seg</p>
+                            </form>
+                        </div>
+                        
+                   </div>  
+            </div>
+        </section>   
+    </main>
+    
+</body>
+
+</html>

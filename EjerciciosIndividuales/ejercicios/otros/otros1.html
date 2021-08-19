@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../estilosEjercicios.css">
+   
+    
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/index.html" ">Volver</a>
+                
+            </div>           
+    </nav>
+    <main>
+        <section>
+            <div class=" blog">
+                   <div class="conteniodEjercicio">
+                       <span style="--i:0";></span>
+                       <span style="--i:1";></span>
+                       <span style="--i:2";></span>
+                       <span style="--i:3";></span>
+                      
+                        <div class="tarjetaCentro" id="#Ejercicio1Lineal" style=" width: 950px;
+                        height: 650px;">
+                            <h1>RECONOCIMIENTO DE VOZ</h1>
+                              
+                            <section class="seccion">
+                                <h2 style="margin-left: 20px; color: slategray; ">Controles</h2>
+                    
+                                <div class="frm-datos">
+                                    <button style="color: whitesmoke; background-color: violet; margin: 10px; margin-left: 40px;" id="start-btn" >
+                                        Escuchar
+                                    </button>
+                                   
+                                    <div  role="status" id="cargando">
+                             
+                                    </div>
+                                    <button  style="color: whitesmoke; background-color: violet; margin: 10px; margin-left: 40px;" id="stop-btn" >
+                                        Parar
+                                    </button>
+                                    <br>
+                                    <button style="color: whitesmoke; background-color: violet; margin: 10px; margin-left: 40px;" id="stop-btn"  onclick="limpiar()">
+                                        Limpiar
+                                    </button>
+                                </div>
+                                          
+                            </section>
+                    
+                            <section class="seccion">
+                                <h2 style="color: slategray; text-align: center;">EL TEXTO RECONOCIDO ES </h2>
+                    
+                                <div class="form-group">
+                                    <textarea style="background:rgb(248, 171, 248) ;color: rgb(73, 69, 69); font-size: 30px; margin-left: 280px; width: 400px; height: 250px; border-radius: 15px;" name="" id="textbox" cols="30" rows="10"></textarea>
+                                </div>
+                    
+                            </section>
+                        </div>
+                        
+                   </div>  
+            </div>
+        </section>   
+    </main>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/ejercicios/metodos/metododevoz.js"></script>
+
+</html>

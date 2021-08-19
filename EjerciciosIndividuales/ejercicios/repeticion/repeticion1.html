@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../estilosEjercicios.css">
+    <script src="/ejercicios/metodos/repeticion.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/index.html" ">Volver</a>
+                
+            </div>           
+    </nav>
+    <main>
+        <section>
+            <div class=" blog">
+                   <div class="conteniodEjercicio">
+                       <span style="--i:0";></span>
+                       <span style="--i:1";></span>
+                       <span style="--i:2";></span>
+                       <span style="--i:3";></span>
+                      
+                        <div class="tarjetaCentro" id="#Ejercicio1Lineal" style=" width: 950px;
+                        height: 650px;">
+                            <h1>GASOLINERA</h1>
+                            <p style="text-align: justify; margin: 10px;">En una gasolinera se instala un detector para controlar la cantidad de litros de gasolina que va despachando el pistero. Se conoce que al comenzar el turno de trabajo en el tanque de gasolina hay N litros. 
+                                Confeccione un programa para conocer constantemente. <br>
+                                La cantidad de vehículos atendidos. <br>
+                                La cantidad de dinero recaudado si cada litro de gasolina especial  cuesta $1,25 ctvos. de dólar. <br>
+                                Cuál es la mayor cantidad de gasolina despachada a un vehículo
+                                </p>
+                            <form id="ej1" name="ej1">
+                                <label for="">Cantidad inical del tanque: </label>
+                                <input style="margin:10px;" type="number" id="inicial" name="inicial">
+                                <button   style="color: whitesmoke; background-color: violet;" style="margin-left: 410px;" type="button" onclick="Empezar()">Comenzar venta</button>
+                                <br>
+                                <label for="">Vehiculo: </label>
+                                <input style="margin:10px; margin-left: 50px;" type="text" id="nom" name="nom">
+                                <br>
+                                <label for="">Litros vendidos</label>
+                                <input style="margin:10px; margin-left: 5px;"  type="number" id="litros" name="litros">
+                                <button  style="color: whitesmoke; background-color: violet; margin-left: 5px;" type="button" onclick="AddCar()">Vender</button>
+                                <br>
+                                <button style="color: whitesmoke; background-color: violet; margin-left: 410px;" type="button" onclick="Reporte()">FINALIZAR DIA</button>
+                                <div id="linea"></div>
+                                
+                                <p id="eje1Res1"></p>
+                                <p id="eje1Res2"></p>
+                                <p id="eje1Res3"></p>
+                            </form>
+                        </div>
+                        
+                   </div>  
+            </div>
+        </section>   
+    </main>
+    
+</body>
+
+</html>

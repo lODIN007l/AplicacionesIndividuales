@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../estilosEjercicios.css">
+    <script src="/ejercicios/metodos/alternativos.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/index.html" ">Volver</a>
+                
+            </div>           
+    </nav>
+    <main>
+        <section>
+            <div class=" blog">
+                   <div class="conteniodEjercicio">
+                       <span style="--i:0";></span>
+                       <span style="--i:1";></span>
+                       <span style="--i:2";></span>
+                       <span style="--i:3";></span>
+                      
+                        <div class="tarjetaCentro" id="#Ejercicio1Lineal" style=" width: 950px;
+                        height: 650px;">
+                            <h1>FASE DE VUELO</h1>
+                            <p>Un avión emplea 10 minutos para despegar del aeropuerto internacional “Mariscal Sucre”, vuela de forma estable  durante n minutos y emplea 15 segundos en aterrizar. Confecciona un programa para imprimir en qué fase del vuelo se encuentra el avión a los t minutos del despegue. Imprima , además, la duración del vuelo en horas, minutos y segundos.</p>
+                            <form id="ej1" name="eje1">
+                                <label for="">Tiempo total en el aire</label>
+                                <br>
+                                <input type="number" id="tVuelo" name="tVuelo">
+                                <br>
+                                <label for="">Minutos transcurridos desde el despegue</label>
+                                <br>
+                                <input type="text" id="mVuelo" name="mVUelo">  
+                                
+                                <button style="margin-left: 200px; color: whitesmoke; background-color: violet;" type="button" onclick="Vuelo()">CALCULAR</button>
+                                <div id="linea"></div>
+                                <p id="res">Fase de vuelo</p>
+                                <p id="eje1Res1">------</p>
+                                <p id="res">Duracion del vuelo</p>
+                                <p id="eje1Res2"> <strong>-- :--,--s</strong></p>
+                            </form>
+                        </div>
+                        
+                   </div>  
+            </div>
+        </section>   
+    </main>
+    
+</body>
+
+</html>
